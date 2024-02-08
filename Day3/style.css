@@ -1,0 +1,38 @@
+.more-paragraph-style{
+    font-style: italic;
+}
+
+.italics{
+    font-style: italic;
+}
+
+p{
+    color: blue;
+    text-align: center;
+    font-family: Impact;
+
+}
+
+#beardRunner{
+    width: 50vw;;
+}
+
+#email{
+    margin: 10px;
+    
+
+}
+
+#emailform{
+    color: grey;
+    background-color:aqua;
+}
+
+#emailform:active{
+    color: purple;
+    background-color: red;
+}
+
+#emailform:hover{
+    background-color: yellow;
+}
