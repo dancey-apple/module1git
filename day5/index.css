@@ -10,6 +10,7 @@ body {
     text-align: center;
     color: rgb(116, 20, 95);
 }
+
 .box1{
     background-color: rgb(116, 20, 95);
     height: 250px;
@@ -20,7 +21,6 @@ body {
     padding: 20px;
     border: 5px solid rgb(18, 165, 128);
     border-radius: 35%;
-
     }
 
 .box2{
