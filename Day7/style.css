@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(22, 25, 27);
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(34, 3, 3);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 50px;
+    justify-content: right;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo{
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactlink{
+    margin-left: auto;
+}
+
+
+body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home{
+    color: rgb(152, 225, 243);
+    height: 50px;
+    width: 50px;
+}
+
+a:hover{
+    color: rgb(2, 253, 211);
+}
+
+a:visited{
+    color: none;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color: rgb(152, 225, 243);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.filler, .contactInfo{
+    color: rgb(152, 225, 243);
+    text-transform: uppercase;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.cwrapper{
+    display: flex;
+    gap: 5px;
+}
+
+.phone, .email, .address{
+    color:rgb(194, 2, 253)
+}
+
+.topBumper{
+    margin-bottom: 125px;
+}
+
+.filler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 100%;
+}
+
+.chat{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    color:rgb(2, 253, 211);
+    height: 75px;
+    width: 75px;
+    z-index: 1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 3, 3);
+    color: rgb(152, 225, 243);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.cw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
