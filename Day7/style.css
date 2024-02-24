@@ -5,6 +5,7 @@
 html {
     background-color: rgb(22, 25, 27);
     font-family: sans-serif;
+    color: rgb(152, 225, 243);
 }
 
 nav {
@@ -15,7 +16,7 @@ nav {
     left: 0px;
     right: 0px;
     margin-bottom: 50px;
-    justify-content: right;
+    justify-content: flex-start;
     gap: 20px;
     align-items: center;
     padding: 10px 50px;
@@ -35,7 +36,7 @@ nav {
     justify-content: center;
 }
 
-.contactlink{
+#contact{
     margin-left: auto;
 }
 
@@ -77,12 +78,37 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 150px;
+}
+
+.product_names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    color: rgb(152, 225, 243);
+
+}
+
+.about_us, .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    color: rgb(152, 225, 243);
+
 }
 
 .cwrapper{
     display: flex;
     gap: 5px;
+    align-items: center;
+}
+
+.cemail{
+    font-size: 24px;
 }
 
 .phone, .email, .address{
@@ -95,6 +121,7 @@ a{
 
 .filler{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     content: 100%;
@@ -121,9 +148,45 @@ footer{
     right: 0px;
 }
 
-.cw{
+.foot{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
+.products_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: solid 1px rgb(152, 225, 243);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.wd_product_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#twok{
+    text-align: right;
+}
+
+#neglected{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.home_image{
+    width: 100%;
+    max-width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
